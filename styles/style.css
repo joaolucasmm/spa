@@ -13,10 +13,10 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #3B9AE1;
+  color: #A47E3B;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #3120E0;
+  border-bottom: 2px solid #61481C;
 }
 
 .banner {
@@ -27,4 +27,18 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #f8cf5e;
+  opacity: 0.8;
+  border-radius: 30px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #61481C;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #A47E3B;
 }/*# sourceMappingURL=style.css.map */
