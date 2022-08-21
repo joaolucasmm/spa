@@ -6,12 +6,20 @@
 
 footer {
     text-align: center;
-    font-size: $tamanho-do-texto / 2;
     border-top: 2px solid $cor-primaria;
     margin-top: 1rem;
     padding: 1.2rem;
     @include bg-cores($cor-primaria, $cor-secundaria, $cor-terciaria, $cor-quartenaria);
-    i { 
-        color: red;
+    h5 {
+        font-size: $tamanho-do-texto / 3;
+    }
+    h6 {
+        font-size: $tamanho-do-texto / 3.5;
+        i { 
+            color: red;
+        }
+    }
+    p {
+        font-size: $tamanho-do-texto / 4;
     }
 }

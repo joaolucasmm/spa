@@ -2,6 +2,14 @@ html, body {
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 1.8em;
+}
+
 nav {
   text-align: center;
 }
@@ -181,14 +189,72 @@ nav ul li a:hover {
   line-height: 1.25rem;
 }
 
+#espaco {
+  margin: 80px;
+}
+#espaco h4 {
+  font-size: 1.2rem;
+  color: #61481C;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#espaco h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  font-weight: 300;
+}
+#espaco .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#espaco .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#espaco .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #A47E3B;
+  text-align: center;
+}
+#espaco .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #BF9742;
+  line-height: 1.25rem;
+  text-align: center;
+}
+#espaco .cards .card .img-container {
+  height: 200px;
+  width: 360px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #BF9742;
+}
+#espaco .cards .card .img-container img {
+  max-height: 100%;
+}
+
 footer {
   text-align: center;
-  font-size: 1.5rem;
   border-top: 2px solid #f8cf5e;
   margin-top: 1rem;
   padding: 1.2rem;
   background: linear-gradient(to bottom, #f8cf5e, #BF9742, #A47E3B, #61481C);
 }
-footer i {
+footer h5 {
+  font-size: 1rem;
+}
+footer h6 {
+  font-size: 0.8571428571rem;
+}
+footer h6 i {
   color: red;
+}
+footer p {
+  font-size: 0.75rem;
 }/*# sourceMappingURL=style.css.map */

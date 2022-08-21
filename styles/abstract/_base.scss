@@ -3,3 +3,11 @@
 html, body {
     font-family: $fonte;
 }
+	
+html {
+    scroll-behavior: smooth;
+}
+   
+:target {
+    scroll-margin-top: 1.8em;
+}
